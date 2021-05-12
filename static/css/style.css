@@ -1,0 +1,124 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 200px;
+}
+
+#mainNavbar {
+    background: whitesmoke;
+}
+
+#mainNavbar2 {
+    background: white;
+}
+
+#mainNavbar .nav-link {
+    color: black;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #FF7E00;
+}
+
+#mainNavbar2 .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+.divider {
+    border-right: 1px solid pink;
+}
+
+.btn {
+    
+    background: transparent;
+    color: black;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.btn:hover {
+    color: orange;
+}
+
+.dropdown-item:hover {
+    background: orange;
+}
+
+.ml-5-custom {
+    margin-left: 4rem
+}
+
+.ml-4-custom {
+    margin-left: 2rem
+}
+
+.jumbotron {
+    padding:0;
+    margin: 0 auto;
+    position: relative;    
+}
+.jumbotron .video {
+    width:100%;
+}
+
+.jumbotron video {
+    width:100%;
+}
+.jumbotron .container {
+    position: absolute;
+    left:0;
+    top:0;
+    right:0;
+    margin:15rem auto;
+    z-index: 2;
+    
+}
+.jumbotron h1 {
+    font-size: 4rem;    
+    font-weight: 700;
+
+}
+
+.jumbotron .curve {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    left:0;
+
+}
+
+.intro {
+    color:white;
+    font-size: 78px;
+    margin-top: 150px;
+    
+}
+
+
+
+
+@media (max-width:767px) {
+    .ml-5-custom {
+        margin-left: 0
+    }
+    .ml-4-custom {
+        margin-left: 0
+    }
+
+    .jumbotron h1{
+        position: absolute;
+        font-size:2rem;
+       
+    }
+
+   
+}
+
+
+
+
